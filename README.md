@@ -2,6 +2,9 @@
 This project and implementation is based on the following paper:
 - Wang, Heng, et al. Can Language Models Solve Graph Problems in Natural Language? arXiv:2305.10037, arXiv, 5 Jan. 2023. arXiv.org, [http://arxiv.org/abs/2305.10037.](https://arxiv.org/abs/2305.10037)
 
+## Abstract  
+This repository explores the potential of Large Language Models (LLMs) to solve graph-based problems in natural language, implmenting Wang et al.'s study "Can Language Models Solve Graph Problems in Natural Language?". Our work utilizes the NLGraph benchmark, which offers a diverse set of graph reasoning tasks across varying complexity levels. We implement advanced prompting techniques, such as Build-a-Graph Prompting and Algorithmic Prompting, to enhance LLMs' problem-solving capabilities. This project aims to demonstrate the practicality and limitations of LLMs in graph-theoretical problem-solving. This repository includes our code, results, and an in-depth analysis of LLM performance on the NLGraph benchmark.
+
 ## Report  
 The NLGraph_Report.ipynb file contains the paper review along with more detailed implementation details.  
 
