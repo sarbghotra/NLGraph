@@ -5,7 +5,7 @@ This project and implementation is based on the following paper:
 ## Report  
 The NLGraph_Report.ipynb file contains the paper review along with more detailed implementation details.  
 
-## Steps to Reproduce Implementation  
+## Setup to Reproduce Implementation  
 
 First install all the necessary libraries & dependencies needed to run the project.  
 ```
