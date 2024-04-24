@@ -8,7 +8,7 @@ This project and implementation is based on the following NeurIPS 2023 paper:
 This repository explores the potential of Large Language Models (LLMs) to solve graph-based problems in natural language, implmenting Wang et al.'s study "Can Language Models Solve Graph Problems in Natural Language?". Our work utilizes the NLGraph benchmark, which offers a diverse set of graph reasoning tasks across varying complexity levels. We implement advanced prompting techniques, such as Build-a-Graph Prompting and Algorithmic Prompting, to enhance LLMs' problem-solving capabilities. This project aims to demonstrate the practicality and limitations of LLMs in graph-theoretical problem-solving. This repository includes our code, results, and an in-depth analysis of LLM performance on the NLGraph benchmark.
 
 ## Report  
-The NLGraph_Report.ipynb file contains the paper review along with more detailed implementation details.  
+The NLGraph_Report.ipynb file contains the paper review along with more detailed implementation details. Environment.yml is specific for windows, environment-mac.yml is specific for Mac. Make sure all neccessary execution and prompt files are downloaded.
 
 ## Setup to Reproduce Implementation  
 
@@ -22,6 +22,8 @@ Set your openai key `OEPNAI_API_KEY`:
 $env:OPENAI_API_KEY="your openai key" # for Windows powershell
 export OPENAI_API_KEY="your openai key" # for Linux
 ```
+
+Follow rest of the implementation as mentioned in the NLGraph_Report.ipynb
 
 
 
